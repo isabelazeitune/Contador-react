@@ -17,6 +17,9 @@ class Contador extends Component {
         //se houver outro item no objeto, o código acima fica:
         //this.setState({...this.state.numero + 1})
         //this.setState.numero = this.state.numero + 1;
+        if(novoNumero%2 == 0){
+          alert("soy un numero par")
+        }
       }
     
       diminuir = () => {
